@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "remera",
+    "price": 900,
+    "thumbnail": "url"
+  },
+  {
+    "id": 2,
+    "title": "zapatillas",
+    "price": 15000,
+    "thumbnail": "url"
+  },
+  {
+    "id": 3,
+    "title": "pantalon",
+    "price": 2300,
+    "thumbnail": "url"
+  }
+]

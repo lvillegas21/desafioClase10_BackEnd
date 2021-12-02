@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>AGREGAR PRODUCTO</h1>
+    <form action="api/productos" id="api/productos" method="post">
+        <div>
+            <label for="nombre">nombre del producto</label>
+            <input type="text" name="producto[title]" id="nombre">
+        </div>
+        <div>
+            <label for="precio">precio</label>
+            <input type="number" name="producto[price]" id="precio">
+        </div>
+        <div>
+            <label for="foto">foto</label>
+            <input type="text" name="producto[thumbnail]" id="foto">
+        </div>
+        <div>
+            <button type="submit">Agregar</button>
+
+        </div>
+    </form>
+</body>
+</html>
